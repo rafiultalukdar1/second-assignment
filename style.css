@@ -15,9 +15,10 @@
 
 body {
     font-family: "Inter", sans-serif;
-    color: rgba(0, 0, 0, 0.50);
-    font-family: 22px;
+    font-size: 22px;
     font-weight: 400;
+    color: rgba(0, 0, 0, 0.50);
+    background: #F5F8FF;
 }
 
 h1,
@@ -28,6 +29,21 @@ h5,
 h6 {
   margin: 0;
   color: #000;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  display: inline-block;
 }
 
 ::selection {
@@ -52,3 +68,63 @@ h6 {
     justify-content: space-between
 }
 
+/*=== Header Section Start Here ===*/
+
+.nav-area {
+    padding: 26px 0;
+}
+
+.nav-items ul li a {
+    margin-left: 48px;
+    color: #8987A1;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-items ul li a:hover {
+    font-weight: 700;
+    color: #252432;
+}
+
+.nav-items ul li:first-child a {
+    color: #252432;
+}
+
+.nav-items ul li:last-child a {
+    color: #000000;
+}
+
+.nav-items ul li:last-child a img {
+    padding-right: 10px;
+}
+
+.banner-section {
+    padding-top: 221px;
+}
+
+.custom-container {
+    max-width: 1140px;
+	margin: 0 auto;
+}
+
+.banner-area {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    align-items: end;
+}
+
+.banner-content h2 {
+    font-size: 65px;
+    font-family: var(--notoFont);
+    font-weight: 700;
+}
+
+.banner-content h2 span {
+    color: var(--primaryColor);
+}
+
+.banner-content p {
+    padding-top: 13px;
+}

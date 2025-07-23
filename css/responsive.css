@@ -8,6 +8,15 @@ Large Screen
 	.container {
 		max-width: 960px;
 	}
+	.custom-container {
+		max-width: 960px;
+	}
+	.banner-section {
+		padding-top: 120px;
+	}
+	.banner-content h2 {
+		font-size: 55px;
+	}
     
 
 
@@ -23,9 +32,25 @@ Tablet Screen
 */
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+	body {
+		font-size: 18px;
+	}
     .container {
 		max-width: 720px;
 	}
+	.nav-items ul li a {
+		margin-left: 38px;
+	}
+	.custom-container {
+		max-width: 720px;
+	}
+	.banner-section {
+		padding-top: 70px;
+	}
+	.banner-content h2 {
+		font-size: 40px;
+	}
+	
 
 
 
@@ -42,10 +67,47 @@ Small Screen
 */
 
 @media screen and (max-width: 767px) {
+	body {
+		font-size: 14px;
+	}
     .container {
 		max-width: 540px;
 	}
-
+	.nav-area {
+		padding: 20px 0;
+	}
+	.nav-logo a img {
+		max-width: 90px;
+	}
+	.nav-items ul li {
+		display: none;
+	}
+	.nav-items ul li:last-child {
+		display: block;
+	}
+	.banner-area {
+		grid-template-columns: 1fr;
+	}
+	.banner-image {
+		order: 1;
+	}
+	.banner-content {
+		order: 2;
+		padding: 0 15px;
+		padding-top: 28px;
+	}
+	.banner-section {
+		padding-top: 55px;
+	}
+	.banner-content h2 {
+		font-size: 34px;
+	}
+	.banner-content p {
+		padding-top: 8px;
+	}
+	.banner-image img {
+		width: 100%;
+	}
 	
 
 
@@ -61,6 +123,15 @@ Mobile Screen
 @media screen and (max-width: 575px) {
 	.container {
 		padding: 0 15px;
+	}
+	.nav-logo a img {
+		max-width: 65px;
+	}
+	.banner-section {
+		padding-top: 10px;
+	}
+	.banner-content h2 {
+		font-size: 24px;
 	}
 
 
