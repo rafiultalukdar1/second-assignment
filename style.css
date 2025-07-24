@@ -321,3 +321,75 @@ ul {
 .latest-items:nth-child(2) a {
     font-size: 28px;
 }
+
+/*=== Join Section Start Here ===*/
+
+.join-section {
+    padding-top: 200px;
+    padding-bottom: 192px;                
+    background: url(images/news-letter-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.join-area {
+    max-width: 830px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.join-area h2 {
+    color: #FFF;
+    font-family: var(--notoFont);
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 23px;
+}
+
+.join-form {
+    position: relative;
+}
+
+.join-form input {
+    width: 99%;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+.join-form input::placeholder {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.join-form input:focus {
+    border-color: var(--primaryColor);
+}
+
+.join-form button {
+    position: absolute;
+    top: 0;
+    right: -1%;
+    height: 100%;
+    text-align: center;
+    background: var(--primaryColor);
+    border: none;
+    padding: 0 53px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.join-form button:hover {
+    background: #bf360c;
+}

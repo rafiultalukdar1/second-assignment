@@ -26,7 +26,9 @@ Large Screen
 	.latest-area {
 		margin-top: 55px;
 	}
-    
+	.join-section {
+		padding: 130px 0;
+	}
 
 
 
@@ -118,6 +120,15 @@ Tablet Screen
 	}
 	.latest-items:nth-child(2) a {
 		font-size: 16px;
+	}
+	.join-section {
+		padding: 120px 0;
+	}
+	.join-area h2 {
+		font-size: 40px;
+	}
+	.join-form {
+		margin: 0 30px;
 	}
 
 
@@ -253,6 +264,16 @@ Small Screen
 	.latest-items:last-child {
 		order: 2;
 	}
+	.join-section {
+		padding: 120px 0;
+		padding-bottom: 70px;
+	}
+	.join-area h2 {
+		font-size: 30px;
+	}
+	.join-form {
+		margin: 0 30px;
+	}
 	
 
 
@@ -277,6 +298,18 @@ Mobile Screen
 	}
 	.banner-content h2 {
 		font-size: 26px;
+	}
+	.join-section {
+		padding-top: 110px;
+	}
+	.join-area h2 {
+		font-size: 22px;
+	}
+	.join-form {
+		margin: 0 15px;
+	}
+	.join-form button {
+		padding: 0 15px;
 	}
 
 
