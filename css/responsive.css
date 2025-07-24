@@ -20,6 +20,12 @@ Large Screen
 	.flower-section {
 		padding-top: 130px;
 	}
+	.latest-section {
+		padding-top: 70px;
+	}
+	.latest-area {
+		margin-top: 55px;
+	}
     
 
 
@@ -96,7 +102,23 @@ Tablet Screen
 	.flower-area {
 		gap: 35px;
 	}
-	
+	.latest-section {
+		padding: 70px 0;
+	}
+	.latest-area {
+		margin-top: 55px;
+	}
+	.latest-area {
+		column-gap: 15px;
+		grid-template-columns: 1fr 1fr;
+		row-gap: 10px;
+	}
+	.latest-items:nth-child(2) h2 {
+		font-size: 20px;
+	}
+	.latest-items:nth-child(2) a {
+		font-size: 16px;
+	}
 
 
 
@@ -202,6 +224,34 @@ Small Screen
 		padding-left: 16px;
 		row-gap: 16px;
 		padding-top: 16px;
+	}
+	.latest-section {
+		padding: 55px 0;
+	}
+	.latest-area {
+		margin-top: 45px;
+	}
+	.latest-area {
+		grid-template-columns: 1fr;
+		row-gap: 16px;
+	}
+	.latest-items:nth-child(2) h2 {
+		font-size: 20px;
+	}
+	.latest-items:nth-child(2) a {
+		font-size: 16px;
+	}
+	.latest-items img {
+		width: 100%;
+	}
+	.latest-items:first-child {
+		order: 1;
+	}
+	.latest-items:nth-child(2) {
+		order: 3;
+	}
+	.latest-items:last-child {
+		order: 2;
 	}
 	
 
