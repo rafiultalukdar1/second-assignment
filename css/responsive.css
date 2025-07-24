@@ -50,6 +50,28 @@ Tablet Screen
 	.banner-content h2 {
 		font-size: 40px;
 	}
+	.plants-area {
+		grid-template-columns: repeat(3 , 1fr);
+	}
+	.plants-section {
+		padding-top: 75px;
+	}
+	.plants-head h2 {
+		font-size: 40px;
+	}
+	.plants-box p {
+		padding-top: 18px;
+	}
+	.plants-box h6 {
+		padding-top: 10px;
+	}
+	.plants-box button {
+		margin-top: 20px;
+		padding: 17px 0;
+	}
+	.plants-box {
+		margin-top: 20px;
+	}
 	
 
 
@@ -108,6 +130,37 @@ Small Screen
 	.banner-image img {
 		width: 100%;
 	}
+	.plants-area {
+		grid-template-columns: repeat(2 , 1fr);
+	}
+	.plants-section {
+		padding-top: 50px;
+	}
+	.plants-head h2 {
+		font-size: 26px;
+	}
+	.plants-head p {
+		padding-top: 10px;
+	}
+	.plants-box p {
+		padding-top: 15px;
+		font-size: 16px;
+	}
+	.plants-box h6 {
+		padding-top: 8px;
+		font-size: 16px;
+	}
+	.plants-box button {
+		margin-top: 15px;
+		padding: 14px 0;
+		font-size: 14px;
+	}
+	.plants-box {
+		margin-top: 5px;
+	}
+	.plants-box-common {
+		display: none;
+	}
 	
 
 
@@ -131,7 +184,7 @@ Mobile Screen
 		padding-top: 10px;
 	}
 	.banner-content h2 {
-		font-size: 24px;
+		font-size: 26px;
 	}
 
 
