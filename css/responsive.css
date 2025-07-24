@@ -130,6 +130,18 @@ Tablet Screen
 	.join-form {
 		margin: 0 30px;
 	}
+	.footer-area {
+		gap: 12px;
+	}
+	.footer-link {
+		column-gap: 35px;
+	}
+	.footer-social ul {
+		gap: 10px;
+	}
+	.footer-link ul {
+		row-gap: 20px;
+	}
 
 
 
@@ -274,6 +286,14 @@ Small Screen
 	.join-form {
 		margin: 0 30px;
 	}
+	.footer-area {
+		grid-template-columns: 1fr;
+		row-gap: 30px;
+	}
+	.footer-link {
+		flex-direction: column;
+		row-gap: 32px;
+	}
 	
 
 
@@ -310,6 +330,15 @@ Mobile Screen
 	}
 	.join-form button {
 		padding: 0 15px;
+	}
+	.footer-area {
+		row-gap: 25px;
+	}
+	.footer-link {
+		row-gap: 20px;
+	}
+	.footer-link ul {
+		row-gap: 20px;
 	}
 
 

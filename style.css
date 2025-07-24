@@ -393,3 +393,55 @@ ul {
 .join-form button:hover {
     background: #bf360c;
 }
+
+/*=== Footer Section Start Here ===*/
+
+.footer-section {
+    padding: 50px 0;
+}
+
+.footer-area {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+}
+
+.footer-logo {
+    max-width: 360px;
+}
+
+.footer-logo p {
+    padding-top: 16px;
+}
+
+.footer-link {
+    display: flex;
+    column-gap: 110px;
+}
+
+.footer-link ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+
+.footer-link ul li a {
+    color: #6b7280;
+    font-size: 16px;
+    line-height: 150%;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-link ul li a:hover {
+    color: #000;
+}
+
+.footer-social ul {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-social ul li {
+    list-style: none;
+}
