@@ -37,13 +37,8 @@ img {
 }
 
 ul {
-  list-style-type: none;
   padding: 0;
   margin: 0;
-}
-
-ul li {
-  display: inline-block;
 }
 
 ::selection {
@@ -74,6 +69,14 @@ ul li {
     padding: 26px 0;
 }
 
+.nav-items ul {
+    list-style: none;
+}
+
+.nav-items ul li {
+    display: inline-block;
+}
+
 .nav-items ul li a {
     margin-left: 48px;
     color: #8987A1;
@@ -89,6 +92,7 @@ ul li {
 
 .nav-items ul li:first-child a {
     color: #252432;
+    font-weight: 700;
 }
 
 .nav-items ul li:last-child a {
@@ -178,7 +182,7 @@ ul li {
 .plants-box button {
     margin-top: 26px;
     width: 100%;
-    padding: 18px 0;
+    padding: 20px 0;
     text-align: center;
     background: var(--primaryColor);
     border: none;
@@ -201,3 +205,57 @@ ul li {
     grid-template-columns: repeat(4 , 1fr);
     gap: 20px;
 }
+
+/*=== Flower Section Start Here ===*/
+
+.flower-section {
+    padding-top: 210px;
+}
+
+.flower-area {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 60px;
+}
+
+.flower-right h2 {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: var(--notoFont);
+}
+
+.flower-right ul {
+	padding-left: 30px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+	padding-top: 20px;
+}
+
+.flower-left > img {
+    width: 100%;
+}
+
+.flower-left {
+    position: relative;
+}
+
+.flower-left-badge {
+    position: absolute;
+    top: -127px;
+	right: -93px;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.flower-left-badge img {
+  animation: spin 5s linear infinite;
+}
+

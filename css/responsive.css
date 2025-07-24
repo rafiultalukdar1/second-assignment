@@ -17,6 +17,9 @@ Large Screen
 	.banner-content h2 {
 		font-size: 55px;
 	}
+	.flower-section {
+		padding-top: 130px;
+	}
     
 
 
@@ -71,6 +74,27 @@ Tablet Screen
 	}
 	.plants-box {
 		margin-top: 20px;
+	}
+	.flower-section {
+		padding-top: 110px;
+	}
+	.flower-right h2 {
+		font-size: 35px;
+	}
+	.flower-right ul {
+		padding-left: 15px;
+		row-gap: 7px;
+		padding-top: 0px;
+	}
+	.flower-left-badge img {
+		max-width: 180px;
+	}
+	.flower-left-badge {
+		top: -75px;
+		right: -55px;
+	}
+	.flower-area {
+		gap: 35px;
 	}
 	
 
@@ -160,6 +184,24 @@ Small Screen
 	}
 	.plants-box-common {
 		display: none;
+	}
+	.flower-area {
+		grid-template-columns: 1fr;
+		gap: 20px;
+	}
+	.flower-left-badge {
+		display: none;
+	}
+	.flower-section {
+		padding-top: 45px;
+	}
+	.flower-right h2 {
+		font-size: 26px;
+	}
+	.flower-right ul {
+		padding-left: 16px;
+		row-gap: 16px;
+		padding-top: 16px;
 	}
 	
 
