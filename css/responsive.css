@@ -30,10 +30,6 @@ Large Screen
 		padding: 130px 0;
 	}
 
-
-
-
-
 }
 
 /*
@@ -143,11 +139,6 @@ Tablet Screen
 		row-gap: 20px;
 	}
 
-
-
-
-
-
 }
 
 
@@ -206,7 +197,7 @@ Small Screen
 		padding-top: 50px;
 	}
 	.plants-head h2 {
-		font-size: 26px;
+		font-size: 24px;
 	}
 	.plants-head p {
 		padding-top: 10px;
@@ -241,7 +232,7 @@ Small Screen
 		padding-top: 45px;
 	}
 	.flower-right h2 {
-		font-size: 26px;
+		font-size: 24px;
 	}
 	.flower-right ul {
 		padding-left: 16px;
@@ -294,10 +285,6 @@ Small Screen
 		flex-direction: column;
 		row-gap: 32px;
 	}
-	
-
-
-
 }
 
 /*
@@ -317,7 +304,7 @@ Mobile Screen
 		padding-top: 10px;
 	}
 	.banner-content h2 {
-		font-size: 26px;
+		font-size: 24px;
 	}
 	.join-section {
 		padding-top: 110px;
@@ -340,9 +327,4 @@ Mobile Screen
 	.footer-link ul {
 		row-gap: 20px;
 	}
-
-
-
-
-
 }
